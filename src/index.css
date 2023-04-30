@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(37, 37, 37);
+  height: 100vh;
+  width: 100%;
+}
+
+.App {
+  width: 22rem;
+  background: rgb(17, 17, 17);
+  color: white;
+  border-radius: 0.8rem;
+  overflow: hidden
+}
+
+.about {
+  padding: 0 2rem;
+}
+
+.interests {
+  padding: 0 2rem;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: rgb(10, 10, 10);
+}
+
+.fa-brands {
+  padding: 1rem;
+}
+
+.grey-text{
+  color: rgb(204, 204, 204);
+}
+
+.info-header {
+  text-align: center;
+}
+
+.info-header img {
+  width: 100%;
+}
+
+.info-header button {
+  width: 7rem;
+  height: 1.8rem;
+  margin: 0 0.5rem;
+  border-radius: 0.4rem;
+  border: none;
+}
+
+.linkedin {
+  background: rgb(61, 144, 252);
+  color: white;
+}
+
+.linkedin i {
+  padding: 0 0.4rem 0 0;
+}
+
+.email i {
+  padding: 0 0.4rem 0 0;
+}
